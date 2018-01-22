@@ -35,5 +35,8 @@ const zebraStripes = [
 ];
 
 const coloredZebraStripes = zebraStripes.map(function (zebra) {
-  return zebra.width % 2 === 0 ? 'black': 'white';
+  return Object.assign({}, zebra, {
+    return {
+      zebra.width % 2 === 0 ? 'black': 'white',
+    }
 });
